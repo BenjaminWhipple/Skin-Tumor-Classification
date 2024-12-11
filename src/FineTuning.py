@@ -58,7 +58,7 @@ early_stopping = EarlyStopping(patience=100, delta=0.01)
 
 
 # Training Loop
-num_epochs = 50
+num_epochs = 20
 
 for epoch in range(num_epochs):
     model.train()
